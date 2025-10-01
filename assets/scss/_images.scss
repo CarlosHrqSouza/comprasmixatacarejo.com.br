@@ -1,0 +1,13 @@
+.img{
+    &-logo{
+        width: 100%;
+        max-width: 180px;
+    }
+
+    &-premios{
+        max-width: 370px;
+        &-2{
+            max-width: 470px;
+        }
+    }
+}
