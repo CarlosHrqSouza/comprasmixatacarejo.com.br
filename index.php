@@ -121,31 +121,26 @@
             </div>
             <form action="#" method="post" class="row gy-5">
 
-                <!-- Nome Completo -->
                 <div class="col-md-6">
                     <label class="form-label fw-semibold">Nome Completo</label>
                     <input type="text" class="form-control p-3" placeholder="Digite seu nome completo" name="nome_completo" required>
                 </div>
 
-                <!-- Número da Nota Fiscal -->
                 <div class="col-md-6">
                     <label class="form-label fw-semibold">Número da Nota Fiscal</label>
                     <input type="text" class="form-control p-3" placeholder="Ex: 123456789" name="nota_fiscal" required oninput="somenteNumeros(this)">
                 </div>
 
-                <!-- CPF -->
                 <div class="col-md-6">
                     <label class="form-label fw-semibold">CPF</label>
                     <input type="text" class="form-control p-3" placeholder="111.222.333-47" name="cpf" required oninput="mascaraCPF(this)">
                 </div>
 
-                <!-- Telefone -->
                 <div class="col-md-6">
                     <label class="form-label fw-semibold">Telefone</label>
                     <input type="text" class="form-control p-3" placeholder="(11) 99999-9999" name="telefone" required oninput="mascaraTelefone(this)">
                 </div>
 
-                <!-- Botão -->
                 <div class="col-12 text-center mt-5">
                     <button type="submit" class="btn w-100 py-3 fw-bold text-white"
                         style="background-color: #f7a30a; border-radius: 10px;">
